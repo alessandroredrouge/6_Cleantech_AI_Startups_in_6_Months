@@ -448,3 +448,15 @@ footer {
         height: 35px;
     }
 }
+
+.contact-divider {
+    width: 50%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--ai-blue), transparent);
+    margin: 3rem auto;
+}
+
+.contact-heading {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
