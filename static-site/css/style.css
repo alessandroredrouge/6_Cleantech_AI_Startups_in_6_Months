@@ -264,27 +264,27 @@ footer {
 
 .startup-item {
     background: white;
-    padding: 2rem;
+    padding: 1.5rem 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    min-height: 500px; /* Ensures consistent card height */
+    min-height: 500px;
 }
 
 .startup-logo {
-    width: 80%; /* Takes up most of the card width */
-    margin: 0 auto 1.5rem;
-    padding: 1rem;
+    width: 80%;
+    margin: 0 auto 1rem;
+    padding: 0.5rem;
 }
 
 .startup-logo img {
     width: 100%;
     height: auto;
     object-fit: contain;
-    max-height: 200px; /* Prevents logo from becoming too tall */
+    max-height: 180px;
 }
 
 .startup-status {
@@ -358,18 +358,33 @@ footer {
 .author {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
 }
 
-.author img {
+.author-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--neutral-black);
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.author-link:hover {
+    background-color: rgba(76, 119, 246, 0.1);
+    transform: translateY(-2px);
+}
+
+.author-link img {
     width: 32px;
     height: 32px;
+    border-radius: 50%;
     object-fit: cover;
 }
 
-.author span {
+.author-link span {
     font-size: 0.9rem;
-    color: var(--neutral-black);
 }
 
 /* Responsive adjustments */
