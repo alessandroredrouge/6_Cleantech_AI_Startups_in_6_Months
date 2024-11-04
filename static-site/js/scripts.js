@@ -19,12 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Add click handler for CTA button
-    document.querySelector('.cta-button').addEventListener('click', function() {
-        // Replace with actual collaboration link or form
-        alert('Collaboration feature coming soon!');
-    });
-
     // Mobile menu functionality
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
