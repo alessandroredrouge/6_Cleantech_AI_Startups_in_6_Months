@@ -303,6 +303,11 @@ footer {
     color: var(--energy-yellow);
 }
 
+.startup-status.coming-up {
+    background-color: rgba(158, 158, 158, 0.1);
+    color: #757575;
+}
+
 .startup-description {
     margin-bottom: 1rem;
     flex-grow: 1;
